@@ -1,4 +1,4 @@
-let time = getElementById("timer");
+let time = document.getElementById("timer");
 let currentTime = new Date();
 setInterval(
 	function () {
